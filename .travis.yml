@@ -11,6 +11,5 @@ script:
 deploy:
     provider: azure_web_apps
     verbose: true
-    username: valentin.fiofanov@indusoft.ru 
-    password: utc5werT
-    site: InduSoftApp
+    site: inspace
+    slot: helloIS
